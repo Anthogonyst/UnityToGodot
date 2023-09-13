@@ -1,6 +1,8 @@
 
 # Unity to Godot Total Project Converter
 
+New Discord:  https://discord.gg/uYcpkQBvP5
+
 This is a call to action for game developers everywhere. Unity announced on 9/12/2023 that they will start charging free to play game developers by the number of downloads by 2024. This means that many free games that exist will no longer be able to run and most of them will shut down. 
  
 ![Unity Install Fees](./docs/images/NewFeeTable.webp)
@@ -18,4 +20,3 @@ Let's do everything we can to aid game developers that have projects to migrate 
 
 Given how recently this happened, we have some json libraries but none of the tests or connecting pieces to make it all happen. We need you to help us! Please fork, send PRs, and use discussions.
 
-New Discord:  https://discord.gg/uYcpkQBvP5
