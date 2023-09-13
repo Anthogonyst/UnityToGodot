@@ -18,3 +18,4 @@ Let's do everything we can to aid game developers that have projects to migrate 
 
 Given how recently this happened, we have some json libraries but none of the tests or connecting pieces to make it all happen. We need you to help us! Please fork, send PRs, and use discussions.
 
+New Discord:  https://discord.gg/uYcpkQBvP5
