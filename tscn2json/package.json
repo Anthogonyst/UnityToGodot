@@ -1,0 +1,35 @@
+{
+  "name": "tscn2json",
+  "version": "1.0.0",
+  "description": "Tool to convert Godot tscn files to json",
+  "main": "src/index.js",
+  "keywords": [
+    "godot",
+    "tscn",
+    "parser",
+    "cli"
+  ],
+  "author": {
+    "name": "SAPer",
+    "email": "gsaper@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saperio/tscn2json.git"
+  },
+  "homepage": "https://github.com/saperio/tscn2json",
+  "bin": {
+    "tscn2json": "bin/tscn2json"
+  },
+  "files": [
+    "bin/**",
+    "src/**"
+  ],
+  "scripts": {
+    "generate-parser": "pegjs -o src/parser.js grammar/tscn.pegjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  }
+}

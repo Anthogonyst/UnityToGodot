@@ -1,0 +1,8 @@
+﻿
+namespace Godot
+{
+    class MonoBehaviourConverter
+    {
+
+    }
+}
