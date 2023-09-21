@@ -22,6 +22,11 @@ Let's do everything we can to aid game developers that have projects to migrate 
 
 Given how recently this happened, we have some json libraries but none of the tests or connecting pieces to make it all happen. We need you to help us! Please fork, send PRs, and use discussions.
 
+Our developers from the discord have come up with this roadmap so far:  https://github.com/users/Anthogonyst/projects/1/views/1
+Additionally, we have the following graphic as a more general roadmap.
+
+![UnityToGodot Roadmap](./docs/images/UnityToGodotRoadmap.png)
+
 
 # Credits
 
