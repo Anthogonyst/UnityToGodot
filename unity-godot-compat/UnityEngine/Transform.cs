@@ -4,13 +4,20 @@ namespace UnityEngine
 {
 	public class Transform
 	{
-		//public Godot.Spatial spatial;//spatial is renamed to Node3D https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#spatial-node
+#if GODOT4
+		//spatial is renamed to Node3D https://docs.godotengine.org/en/latest/tutorials/3d/introduction_to_3d.html#spatial-node
 		public Godot.Node3D node;
+#else
+		public Godot.Spatial spatial;
+#endif
 		public string name { get { throw new NotImplementedException(); } set { throw new NotImplementedException(); } }
 		public GameObject gameObject { get { throw new NotImplementedException(); } set { throw new NotImplementedException(); } }
 
-		//internal Transform(Godot.Spatial node)
+#if GODOT4
 		internal Transform(Godot.Node3D node)
+#else
+		internal Transform(Godot.Spatial node)
+#endif
 		{
 			spatial = node;
 		}
