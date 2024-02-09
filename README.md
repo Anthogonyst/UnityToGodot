@@ -8,6 +8,8 @@ Provided is a set of tools meant to take a Unity project and prepare its assets 
 1. Clone this repository: `git clone https://github.com/Anthogonyst/UnityToGodot.git`
 2. Initialize and download the submodules: `git submodule update --init --recursive`
 
+Additionally, some data files are provided in `data/` so that you can develop tests for some unexpected results that can occur with yaml files and Unity files in general. Feel free to copy and use them as necessary because they come from my other open source project.
+
 
 ## Motivation
 
