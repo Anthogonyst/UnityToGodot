@@ -1,0 +1,15 @@
+[submodule "JSONConfigFile"]
+	path = JSONConfigFile
+	url = https://github.com/98teg/JSONConfigFile
+[submodule "tscn2json"]
+	path = tscn2json
+	url = https://github.com/saperio/tscn2json
+[submodule "UnityToJSON"]
+	path = UnityToJSON
+	url = https://github.com/RobertoMalatesta/UnityToJSON
+[submodule "unity-godot-compat"]
+	path = unity-godot-compat
+	url = https://github.com/NathanWarden/unity-godot-compat
+[submodule "unity_to_godot_converter"]
+	path = unity_to_godot_converter
+	url = https://github.com/Zylann/unity_to_godot_converter
